@@ -1,0 +1,22 @@
+{
+    "name": "che/demo-lib",
+    "description": "a demo composer library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "che",
+            "email": "reg@che.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+          "Flower\\Rose\\": "src/Flower/Rose",
+          "Flower\\Lily\\": "src/Flower/Lily"
+        }
+    }
+}
